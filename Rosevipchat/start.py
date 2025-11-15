@@ -1,6 +1,6 @@
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
-from EsproAiChat.Espro import app  # import bot from module
+from Rosevipchat.Rose import app  # import bot from module
 
 # ===== /start Command Handler =====
 @app.on_message(filters.private & filters.command("start"))
@@ -13,7 +13,7 @@ async def start_command(client, message):
     )
 
     await message.reply(
-        "💠 Welcome to Espro AI Chat!\n\n"
+        "💠 Welcome to Rose AI Chat!\n\n"
         "Click below to start chatting or get help.",
         reply_markup=keyboard
     )
@@ -36,5 +36,5 @@ async def callback_handler(client, callback_query):
 
 # ===== Run Bot =====
 if __name__ == "__main__":
-    print("🤖 Espro AI Chat Bot (with Start Button) is running...")
+    print("🤖 Rose AI Chat Bot (with Start Button) is running...")
     app.run()
