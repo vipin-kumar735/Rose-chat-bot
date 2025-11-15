@@ -1,0 +1,23 @@
+{
+    "name": "Espro Ai Chat Bot",
+    "description": "A Telegram Best Artificial Intelligence Chat Bot, written in Python with Pyrogram",
+    "logo": "https://te.legra.ph/file/",
+    "stack": "container",
+    "env": {
+        "BOT_TOKEN": { "description": "Input Bot token here", "required": true },
+        "API_ID": { "description": "Input api id here", "required": true },
+        "API_HASH": { "description": "Input api hash here", "required": true },
+        "ESPRO_API_KEY": { "description": "Your Espro API Key", "required": true },
+        "DEFAULT_MODEL": { "description": "Leave empty for default model", "required": false }
+    },
+    "buildpacks": [
+        { "url": "heroku/python" },
+        { "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git" }
+    ],
+    "addons": [
+        { "plan": "heroku-postgresql" }
+    ],
+    "formation": {
+        "worker": { "quantity": 1, "size": "eco" }
+    }
+}
