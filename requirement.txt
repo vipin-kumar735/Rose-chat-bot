@@ -1,4 +1,6 @@
-pyrogram==2.0.36
-tgcrypto
-httpx
-asyncio
+flask==3.0.0
+requests==2.31.0
+pandas==2.2.0
+numpy==1.26.2
+scikit-learn==1.4.0
+python-dotenv==1.0.0
