@@ -1,7 +1,8 @@
-<h3 align="center">
-  # EsproAiChatBot
-</h3>
+<p align="center">
+  <img src="https://files.catbox.moe/m7m0x9.jpg" alt="ShrutixMusic Bot Logo" width="500px">
+</p>
 
+<h1 align="center">🍁 Rᴏsᴇ Aɪ Cʜᴀᴛ Bᴏᴛ 🍁</h1>
 <h3 align="center">
 <details>
 <summary><b>─「 ᴅᴇᴩʟᴏʏ ᴏɴ ʜᴇʀᴏᴋᴜ 」─</b></summary>
